@@ -1,0 +1,8 @@
+#!/bin/bash
+# I'm a noob, so i created this file to make it easier to build the kernel for me, it's a copy of build.config.mtk.aarch64.gcc
+ARCH=arm64
+CROSS_COMPILE=aarch64-linux-gnu-
+CC=gcc
+# DEFCONFIG=defconfig
+KERNEL_DIR=kernel-4.14
+export LINUX_GCC_CROSS_COMPILE_PREBUILTS_BIN=$(pwd)/prebuilts/aarch64-linux-android-4.9/bin
